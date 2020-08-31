@@ -1,1 +1,0 @@
-const eslintConfigCucumber = require('.');
