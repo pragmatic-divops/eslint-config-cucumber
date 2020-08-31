@@ -1,0 +1,37 @@
+{
+  "name": "@pragmatic-divops/eslint-config-cucumber",
+  "description": "Shareable config for ESLint for Cucumber.js tests",
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "files": [
+    "example.js",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "runkitExampleFilename": "./example.js",
+  "repository": "pragmatic-divops/eslint-config-cucumber",
+  "bugs": "https://github.com/pragmatic-divops/eslint-config-cucumber/issues",
+  "homepage": "https://npm.im/@pragmatic-divops/eslint-config-cucumber",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org)",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
+    "lint:md": "remark . --frail",
+    "generate:md": "remark . --output",
+    "lint:sensitive": "ban",
+    "lint:peer": "npm ls >/dev/null"
+  },
+  "devDependencies": {
+    "@pragmatic-divops/commitlint-config": "1.0.0",
+    "@pragmatic-divops/remark-preset": "1.0.1",
+    "ban-sensitive-files": "1.9.9",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "4.2.5",
+    "lockfile-lint": "4.3.7",
+    "npm-run-all": "4.1.5",
+    "remark-cli": "8.0.1",
+    "remark-toc": "7.0.0"
+  }
+}
