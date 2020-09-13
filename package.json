@@ -25,7 +25,7 @@
     "lint:peer": "npm ls >/dev/null"
   },
   "devDependencies": {
-    "@pragmatic-divops/commitlint-config": "1.0.1",
+    "@pragmatic-divops/commitlint-config": "1.0.2",
     "@pragmatic-divops/eslint-config": "1.0.3",
     "@pragmatic-divops/remark-preset": "1.0.1",
     "ban-sensitive-files": "1.9.9",
