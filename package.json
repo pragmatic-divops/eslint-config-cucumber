@@ -37,6 +37,6 @@
     "remark-toc": "8.0.1"
   },
   "dependencies": {
-    "@form8ion/eslint-config-cucumber": "1.4.0"
+    "@form8ion/eslint-config-cucumber": "1.4.1"
   }
 }
