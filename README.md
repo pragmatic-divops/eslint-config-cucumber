@@ -1,8 +1,8 @@
 # eslint-config-cucumber
 
 [Shareable config](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
-for [ESLint](https://eslint.org) for [Cucumber.js](https://github.com/cucumber/cucumber-js) tests,
-which extends [@form8ion/eslint-config-cucumber](https://github.com/form8ion/eslint-config-cucumber)
+for [ESLint](https://eslint.org) for [Cucumber.js](https://github.com/cucumber/cucumber-js)
+tests, which extends [@form8ion/eslint-config-cucumber](https://github.com/form8ion/eslint-config-cucumber)
 
 <!--status-badges start -->
 
